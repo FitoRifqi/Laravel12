@@ -1,37 +1,88 @@
 @extends('layouts.master')
 
 @section('content')
-
-<h1>About Me</h1>
-
-<div class="about">
-
-    <div class="about-text">
-
-        <p>
-            Nama saya <b>Fito Rifqi</b>. Saya adalah mahasiswa Teknik Informatika
-            yang memiliki minat pada bidang Web Development dan UI Design.
-        </p>
-
-        <p>
-            Saya senang belajar teknologi baru dan membuat project
-            website sederhana menggunakan HTML, CSS, PHP, dan Laravel.
-        </p>
-
+<div class="about-page">
+    <div class="about-header">
+        <h1>Tentang Saya</h1>
+        <p>Kenali lebih jauh tentang latar belakang, perjalanan pendidikan, dan karya-karya saya.</p>
     </div>
 
+    <div class="about-content">
+        <section class="biodata-section">
+            <h2>Biodata Diri</h2>
+            <table class="biodata-table">
+                <tr>
+                    <th>Nama Lengkap</th>
+                    <td>: Fito</td>
+                </tr>
+                <tr>
+                    <th>Usia</th>
+                    <td>: 20 Tahun</td>
+                </tr>
+                <tr>
+                    <th>Tempat Tinggal</th>
+                    <td>: Lamongan, Jawa Timur</td>
+                </tr>
+                <tr>
+                    <th>Fokus Studi</th>
+                    <td>: Teknik Informatika</td>
+                </tr>
+                <tr>
+                    <th>Peminatan Teknis</th>
+                    <td>: Laravel, Flutter, AWS</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="education-section">
+            <h2>Riwayat Pendidikan</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Politeknik Elektronika Negeri Surabaya (PENS)</h3>
+                    <p>Mahasiswa D4/D3 Teknik Informatika (Saat ini)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>[SMK Antartika 2 Sidoarjo]</h3>
+                    <p>Jurusan [Rekayasa Perangkat Lunak] (2024)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>[SMP Negeri 2 Sedati]</h3>
+                    <p>(2021)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>[SD Negeri Buncitan 404]</h3>
+                    <p>(2018)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section">
+            <h2>Portofolio & Proyek</h2>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon">📁</div>
+                    <h3>SI-MANDUK</h3>
+                    <p>Sistem Informasi Manajemen Kependudukan Anti-Fraud. Sebuah proyek kolaborasi tim untuk mengelola
+                        dan mengamankan data kependudukan.</p>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon">💬</div>
+                    <h3>LAN Messenger</h3>
+                    <p>Simple Local Network-Based Chat Application. Aplikasi obrolan berbasis jaringan lokal yang
+                        dirancang untuk komunikasi instan dalam satu jaringan.</p>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon">🚀</div>
+                    <h3>Web & Mobile Integration</h3>
+                    <p>Eksplorasi dan pengembangan aplikasi terintegrasi menggunakan framework web, mobile (Flutter),
+                        dan layanan cloud.</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
 </div>
-
-<h2>My Skills</h2>
-
-<div class="skills">
-
-    <div class="skill-card">HTML</div>
-    <div class="skill-card">CSS</div>
-    <div class="skill-card">PHP</div>
-    <div class="skill-card">Laravel</div>
-    <div class="skill-card">Flutter</div>
-
-</div>
-
 @endsection
