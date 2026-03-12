@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <th>Tempat Tinggal</th>
-                    <td>: Kos As 19,Lamongan, Jawa Timur</td>
+                    <td>: Kos As 19,Beringin, Lamongan, Jawa Timur</td>
                 </tr>
                 <tr>
                     <th>Fokus Studi</th>
@@ -62,9 +62,9 @@
 
                 <div class="portfolio-card">
                     <div class="portfolio-icon">📁</div>
-                    <h3>SI-MANDUK</h3>
-                    <p>Sistem Informasi Manajemen Kependudukan Anti-Fraud. Sebuah proyek kolaborasi tim untuk mengelola
-                        dan mengamankan data kependudukan.</p>
+                    <h3>Internet Of Think</h3>
+                    <p>Sistem monitoring IoT realtime untuk energi paving block piezoelectric dan deteksi genangan air.
+                    </p>
                 </div>
 
                 <div class="portfolio-card">

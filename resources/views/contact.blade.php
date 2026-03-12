@@ -15,7 +15,7 @@
                 <span class="info-icon">📍</span>
                 <div class="info-text">
                     <strong>Alamat:</strong>
-                    <p>Lamongan, Jawa Timur, Indonesia</p>
+                    <p>Kos As 19, Beringin, Lamongan, Jawa Timur, Indonesia</p>
                 </div>
             </div>
 
