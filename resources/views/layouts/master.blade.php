@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Profile</title>
+    <title>Personal Profile</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
