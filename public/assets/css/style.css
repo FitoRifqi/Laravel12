@@ -42,20 +42,16 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Mengubah ini agar elemen mulai dari kiri */
-    gap: 50px; /* Menambahkan jarak antara foto dan teks */
+    justify-content: flex-start;
+    gap: 50px;
 }
 
 .hero-text {
     max-width: 600px;
 }
 
-.hero-img {
-    /* Hapus margin-left: auto; yang sebelumnya ada di sini */
-}
-
 .hero-img img {
-    width: 250px; /* Sedikit diperbesar agar lebih proporsional di kiri */
+    width: 250px;
     border-radius: 50%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     object-fit: cover;
@@ -125,7 +121,7 @@ footer {
     font-size: 16px;
 }
 
-/* ================= ABOUT PAGE STYLES ================= */
+/* Page ABOUT */
 
 .about-page {
     width: 100%;
@@ -262,7 +258,7 @@ footer {
     line-height: 1.5;
 }
 
-/* ================= CONTACT PAGE STYLES ================= */
+/* PAGE CONTACT */
 
 .contact-page {
     width: 100%;
@@ -287,7 +283,7 @@ footer {
 .contact-container {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap; /* Agar responsif jika layar mengecil */
+    flex-wrap: wrap;
 }
 
 /* Kotak Info dan Form */

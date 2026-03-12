@@ -11,7 +11,7 @@
 
     <nav class="navbar">
 
-        <div class="logo">MyProfile</div>
+        <div class="logo">Urfit</div>
 
         <div class="menu">
             <a href="/">Home</a>
@@ -26,7 +26,7 @@
     </div>
 
     <footer>
-        <p>© 2026 Fito Rifqi</p>
+        <p>© 2026 by Fito Rifqi</p>
     </footer>
 
 </body>

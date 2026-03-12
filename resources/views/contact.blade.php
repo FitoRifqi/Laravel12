@@ -31,7 +31,7 @@
                 <span class="info-icon">📷</span>
                 <div class="info-text">
                     <strong>Instagram:</strong>
-                    <p><a href="https://instagram.com/fitordf" target="_blank">@fito</a></p>
+                    <p><a href="https://instagram.com/fitordf" target="_blank">@fitordf</a></p>
                 </div>
             </div>
 
@@ -39,32 +39,9 @@
                 <span class="info-icon">💻</span>
                 <div class="info-text">
                     <strong>GitHub:</strong>
-                    <p><a href="https://github.com/FitoRifqi" target="_blank">github.com/fito</a></p>
+                    <p><a href="https://github.com/FitoRifqi" target="_blank">github.com/FitoRifqi</a></p>
                 </div>
             </div>
-        </div>
-
-        <div class="contact-form">
-            <h2>Kirim Pesan</h2>
-            <form action="#" method="POST">
-                <div class="form-group">
-                    <label for="name">Nama Lengkap</label>
-                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Alamat Email</label>
-                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Pesan</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..."
-                        required></textarea>
-                </div>
-
-                <button type="submit" class="btn-submit">Kirim Pesan</button>
-            </form>
         </div>
     </div>
 </div>

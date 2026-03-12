@@ -13,7 +13,7 @@
             <table class="biodata-table">
                 <tr>
                     <th>Nama Lengkap</th>
-                    <td>: Fito</td>
+                    <td>: Fito Rifqi Dwi Fatoni</td>
                 </tr>
                 <tr>
                     <th>Usia</th>
@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <th>Tempat Tinggal</th>
-                    <td>: Lamongan, Jawa Timur</td>
+                    <td>: Kos As 19,Lamongan, Jawa Timur</td>
                 </tr>
                 <tr>
                     <th>Fokus Studi</th>
@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <th>Peminatan Teknis</th>
-                    <td>: Laravel, Flutter, AWS</td>
+                    <td>: Laravel, Flutter, Mysql</td>
                 </tr>
             </table>
         </section>
@@ -38,8 +38,8 @@
             <h2>Riwayat Pendidikan</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h3>Politeknik Elektronika Negeri Surabaya (PENS)</h3>
-                    <p>Mahasiswa D4/D3 Teknik Informatika (Saat ini)</p>
+                    <h3>Politeknik Elektronika Negeri Surabaya</h3>
+                    <p>Mahasiswa D3 Teknik Informatika </p>
                 </div>
                 <div class="timeline-item">
                     <h3>[SMK Antartika 2 Sidoarjo]</h3>
