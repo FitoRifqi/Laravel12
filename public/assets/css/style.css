@@ -391,3 +391,93 @@ footer {
 .btn-submit:hover {
     background: #3388dd;
 }
+
+/* responsive */
+
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-img img {
+        width: 200px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .menu a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-img img {
+        width: 160px;
+    }
+
+    .background-section {
+        padding: 20px;
+    }
+
+    .background-section p {
+        font-size: 14px;
+    }
+}
+
+/* NAVBAR */
+
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
